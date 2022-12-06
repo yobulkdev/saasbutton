@@ -1,15 +1,15 @@
 ## saascsvbutton
 
-This is a Sample Button application which simulates a CSV button addition process in a typical SaaS application.
-A SaaS application has to do 3 things to embedd the CSV button in your main application.
+#### This is a Sample Button application which simulates a CSV button addition process in a typical SaaS application.
+#### A SaaS application has to do the following things to embedd a CSV button in their application.
 
-1.Import yoembed NPM package.
-2.Update the `templateID` created through YoBulk backend application,Running in a separate port.
-3.Update the `yoHostUrl` with the endpoint url where the YoBulk backend application is running.
+* Import yoembed NPM package.
+* Update the `templateID` created through YoBulk backend application,Running in a separate port.
+* Update the `yoHostUrl` with the endpoint url where the YoBulk backend application is running.
 
-*Example in App.js
+Example in App.js
 
-````json
+````bash
 import { YoButton } from "yoembed";
 import "./App.css";
 
